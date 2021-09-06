@@ -195,6 +195,11 @@ button a {
 /* making resposive  */
 
 @media(max-width:800px){
+    header{
+    
+        width: 90%;
+    }
+
 .nav-buttons{
     display: flex;
     flex-direction: column;
@@ -238,7 +243,10 @@ h1{
     padding-left: 15%;
     align-items: flex-start;
 }
-
+footer{
+    
+    width: 90%;
+}
 }
 
 
@@ -246,10 +254,14 @@ h1{
 
 @media(max-width:500px){
 header{
-    height: 40vh;
+    
+    width: 90%;
 }
 
-
+.img{
+    height: 30vh;
+    padding-right: 1%;
+    }
 
     .nav-buttons{ 
         display: flex;
@@ -258,9 +270,6 @@ header{
         padding-left: 30%;
     }
 
-    .img{
-    height: 50vh;
-    }
 
 .pictures{
     display: flex;
