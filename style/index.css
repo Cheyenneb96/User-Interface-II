@@ -244,4 +244,38 @@ h1{
 
 
 
-@media(max-width:500px){}
+@media(max-width:500px){
+header{
+    height: 40vh;
+}
+
+
+
+    .nav-buttons{ 
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        padding-left: 30%;
+    }
+
+    .img{
+    height: 50vh;
+    }
+
+.pictures{
+    display: flex;
+        justify-content: space-evenly;
+        width: 87%;
+        
+ }
+
+ figcaption{
+     text-align: center;
+     padding-bottom: 2%;
+ }
+
+ }
+
+
+
+}
