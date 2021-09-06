@@ -193,3 +193,55 @@ button a {
     
 
 /* making resposive  */
+
+@media(max-width:800px){
+.nav-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 35%;
+}
+.top-page{
+    flex-direction: column; 
+}
+.img{
+    margin-left: 10%;
+    height: 70vh;
+    }
+
+h1{
+    padding:2%;
+    }    
+
+    figure{ padding-bottom: 10%;}
+
+.row-one{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    align-items: flex-end;
+}
+
+
+
+.row-two{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    padding-bottom: 30px;
+    padding-left: 15%;
+    align-items: flex-start;
+}
+
+}
+
+
+
+
+@media(max-width:500px){}
